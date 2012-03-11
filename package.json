@@ -1,0 +1,25 @@
+{
+    "name": "stringy"
+  , "description": "Stringy.js will stringify your circular JS objects without complaint."
+  , "version": "0.1.0"
+  , "homepage": "http://github.com/ericmuyser/stringy"
+  , "repository": {
+      "url": "http://github.com/ericmuyser/stringy"
+  }
+  , "author": "Eric Muyser <eric@muyser.com> (http://eric.muyser.com/)"
+  , "main": "lib/stringy.js"
+  , "engines": {
+      "node": "*"
+  }
+  , "directories" : {
+      "lib" : "./lib"
+  }
+  , "dependencies": {
+  }
+  , "browserify" : { 
+      "base" : "./lib"
+    , "main" : "./lib/stringy.js"
+  }
+  , "devDependencies": {
+  }
+}
